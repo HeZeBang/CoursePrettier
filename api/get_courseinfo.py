@@ -1,8 +1,8 @@
 import asyncio
 import json
 
-from ShanghaiTechOneAPI.Credential import Credential
-from ShanghaiTechOneAPI.Eams import Eams, CourseCalender
+from Credential import Credential
+from Eams import Eams, CourseCalender
 
 credential = json.load(open('credential.json'))
 courseinfo = None

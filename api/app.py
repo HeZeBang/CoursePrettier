@@ -6,8 +6,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from ShanghaiTechOneAPI.Credential import Credential
-from ShanghaiTechOneAPI.Eams import Eams
+from Credential import Credential
+from Eams import Eams
 from timetable import ICS_Exporter
 
 
