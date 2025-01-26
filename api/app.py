@@ -123,3 +123,6 @@ async def get_ics(id: str):
     exporter.export(ics_file)
     return FileResponse(ics_file, media_type="text/calendar", filename="courseinfo.ics")
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
