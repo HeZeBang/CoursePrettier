@@ -11,7 +11,7 @@ from aiohttp import ClientSession, CookieJar, TCPConnector
 from aiohttp.resolver import AsyncResolver
 from bs4 import BeautifulSoup
 
-from Exception import UsernameOrPasswordError
+from utils.Exception import UsernameOrPasswordError
 
 NAMESERVERS = ["8.8.8.8", "8.8.4.4"]
 

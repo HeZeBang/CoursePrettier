@@ -1,8 +1,8 @@
 import asyncio
 import json
 
-from Credential import Credential
-from Eams import Eams, CourseCalender
+from utils.Credential import Credential
+from utils.Eams import Eams, CourseCalender
 
 credential = json.load(open('credential.json'))
 courseinfo = None

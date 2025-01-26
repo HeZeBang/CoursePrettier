@@ -6,9 +6,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from Credential import Credential
-from Eams import Eams
-from timetable import ICS_Exporter
+from utils.Credential import Credential
+from utils.Eams import Eams
+from utils.timetable import ICS_Exporter
 
 
 class LoginParams(BaseModel):

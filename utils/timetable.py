@@ -1,6 +1,6 @@
 from hashlib import md5
 from datetime import datetime, timedelta
-from Info import CLASS_PERIOD, CLASS_TIME, CLASS_NUM, WEEK_LEN
+from utils.Info import CLASS_PERIOD, CLASS_TIME, CLASS_NUM, WEEK_LEN
 import json
 
 def week_str_to_list(week_str: str) -> list[int]:

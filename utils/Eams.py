@@ -9,8 +9,8 @@ import pyjson5
 from aiohttp import ClientSession, FormData
 from bs4 import BeautifulSoup
 
-from Credential import Credential
-from Exception import FailToLogin
+from utils.Credential import Credential
+from utils.Exception import FailToLogin
 
 
 class Eams:
