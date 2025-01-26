@@ -18,7 +18,7 @@ interface LoginResponse {
   table: CourseList
 }
 
-export const baseUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:8000' : '/'
+export const baseUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:8000' : ''
 
 export let courseList: CourseList = [] as CourseList
 export let uuid: string = ''
